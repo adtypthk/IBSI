@@ -3,15 +3,7 @@
 <html>
 <head>
 
-  	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116784872-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-116784872-1');
-	</script>
+  	
 
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
@@ -38,13 +30,14 @@
 
           <nav>
             <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/research">Research</a>
+            <a href="{{ site.baseurl }}/about">News</a>
             <a href="{{ site.baseurl }}/people">People</a>
-            <a href="{{ site.baseurl }}/publications">Publications</a>
-            <a href="{{ site.baseurl }}/jobs">Jobs</a>
+	    <a href="{{ site.baseurl }}/research">Research</a>
+            <a href="{{ site.baseurl }}/publications">Phantoms</a>
+            <a href="{{ site.baseurl }}/jobs">Uploads</a>            
+            <a href="{{ site.baseurl }}/fun">Implementations</a>
+	    <a href="{{ site.baseurl }}/contact">Comments</a>
             <a href="{{ site.baseurl }}/contact">Contact</a>
-            <a href="{{ site.baseurl }}/fun">Fun!</a>
           </nav>
         </header>
       </div>
